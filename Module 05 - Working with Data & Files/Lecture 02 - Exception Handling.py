@@ -1,7 +1,7 @@
 # Prepared by Muhammad Qasim Riaz (Lecturer - GIK Institute)
 
 # =====================================================
-# Lecture 10 - Error Handling (Exception Handling)
+# Lecture 02 - Error Handling (Exception Handling)
 # =====================================================
 
 # Sometimes errors occur while a program is running.
