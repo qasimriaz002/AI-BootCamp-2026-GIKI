@@ -1,7 +1,8 @@
 # 🤖 AI Boot Camp 2026 - GIKI
 
-👨‍🏫 **Published By >>** M. Qasim Riaz >>
-📧 **Email:** [qasim.riaz@giki.edu.pk](mailto:qasim.riaz@giki.edu.pk) >>
+👨‍🏫 **Published By >>** M. Qasim Riaz (Lecturer) >> FCSE, GIK Institute
+
+📧 **Email:** [qasim.riaz@giki.edu.pk](mailto:qasim.riaz@giki.edu.pk)
 💼 **LinkedIn:** https://www.linkedin.com/in/mqasimriaz/
 
 ## Phase 1 — Python Foundations
