@@ -154,9 +154,17 @@ AI-BootCamp-2026-GIKI/
 │   └── mathematics.py
 │
 ├── Module 05 - Working with Data & Files/
-│   └── Lecture 01 - File Handling.py
+│   |── Lecture 01 - File Handling.py
+│   ├── Lecture 02 - Exception Handling.py
+│   └── Lecture 03 - List Comprehension.py
 │
 ├── Module 06 - NumPy (Numerical Python)/
+│   |── Lecture 01 - Numpy Introduction.py
+│   ├── Lecture 02 - Numpy Arrays & Properties.py
+│   ├── Lecture 03 - Numpy Indexing & Slicing.py
+│   ├── Lecture 04 - Numpy Reshaping Arrays.py
+│   ├── Lecture 05 - Numpy Broadcasting.py
+│   └── Lecture 06 - Maths & Stats Operations.py
 │
 ├── Module 07 - Pandas (Data Analysis)/
 │
