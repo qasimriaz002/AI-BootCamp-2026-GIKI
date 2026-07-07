@@ -159,17 +159,41 @@ AI-BootCamp-2026-GIKI/
 │   ├── Lecture 03 - List Comprehension.py
 │   └── Lecture 04 - File Handling (CSV Files).py
 │
-├── Module 06 - NumPy (Numerical Python)/
-│   |── Lecture 01 - Numpy Introduction.py
-│   ├── Lecture 02 - Numpy Arrays & Properties.py
-│   ├── Lecture 03 - Numpy Indexing & Slicing.py
-│   ├── Lecture 04 - Numpy Reshaping Arrays.py
-│   ├── Lecture 05 - Numpy Broadcasting.py
+├── Module 06 - NumPy Numerical Python/
+│   ├── Lecture 01 - NumPy Introduction.py
+│   ├── Lecture 02 - NumPy Arrays & Properties.py
+│   ├── Lecture 03 - NumPy Indexing & Slicing.py
+│   ├── Lecture 04 - NumPy Reshaping Arrays.py
+│   ├── Lecture 05 - NumPy Broadcasting.py
 │   └── Lecture 06 - Maths & Stats Operations.py
 │
-├── Module 07 - Pandas (Data Analysis)/
+├── Module 07 - Pandas Data Analysis/
+│   ├── Lecture 01 - Introduction to Pandas.py
+│   ├── Lecture 02 - Pandas Features & Data Structures.py
+│   ├── Lecture 03 - Pandas Series & Data Frames.py
+│   ├── Lecture 04 - Pandas File Handling.py
+│   ├── Lecture 05 - Pandas Handling CSV Files.py
+│   ├── Lecture 06 - Pandas Data Cleaning.py
+│   ├── Lecture 07 - Pandas Indexing, Slicing & Filtering.py
+│   ├── Lecture 08 - Pandas Aggregations.py
+│   ├── Lecture 09 - Pandas Pivot Tables.py
+│   ├── Lecture 10 - Apply, Map & Lambda.py
+│   └── Lecture 11 - Preparing Datasets for Machine Learning.py
 │
-└── Module 08 - Matplotlib (Visualization)/
+├── Module 08 - Matplotlib Visualization/
+│   ├── Lecture 01 - Introduction to Matplotlib.py
+│   ├── Lecture 02 - Line Plots & Markers.py
+│   ├── Lecture 03 - Bar Charts, Histograms & Pie Charts.py
+│   ├── Lecture 04 - Scatter Plots, Box Plots & Subplots.py
+│   ├── Lecture 05 - Figure Customization (Styles, Labels, Etc.).py
+│   ├── Lecture 06 - Advanced Layouts (Subplots, Multiplots).py
+│   ├── Lecture 07 - 3D Plot Graphs.py
+│   └── Lecture 08 - Visualizing Vectors in 3D Space.py
+│
+└── Module 09 - Capstone Project/
+    ├── Capstone Project Instruction (AI-BootCamp-2026-GIKI).pdf
+    ├── Iris.csv
+    └── Sample Iris EDA Project.py
 ```
 
 ---
