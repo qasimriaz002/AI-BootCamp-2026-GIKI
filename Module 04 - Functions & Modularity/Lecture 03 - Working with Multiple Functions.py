@@ -30,58 +30,58 @@ stdmarks = [80, 75, 90]
 
 display_result("Ahmed", stdmarks)
 
-# # =====================================================
-# # Example - Creating List of Dictionaries
-# # =====================================================
+# =====================================================
+# Example - Creating List of Dictionaries
+# =====================================================
+
+# This function receives two lists.
+# The first list contains the names of students.
+# The second list contains the marks of students.
 #
-# # This function receives two lists.
-# # The first list contains the names of students.
-# # The second list contains the marks of students.
-# #
-# # The function combines both lists and creates
-# # a new list in which every element is a dictionary.
+# The function combines both lists and creates
+# a new list in which every element is a dictionary.
+
+
+#EXAMPLE 2
+def create_student_list(s_nameList, s_marksList):
+
+    # Empty list to store dictionaries of students.
+    s_studentList = []
+
+    # Loop is used to visit every index of the lists.
+    for i in range(len(s_nameList)):
+
+        # Creating dictionary for one student.
+        s_student = {
+            "Name": s_nameList[i],
+            "Marks": s_marksList[i]
+        }
+
+        # Adding dictionary into the list.
+        s_studentList.append(s_student)
+
+    # Returning the complete list.
+    return s_studentList
+
+
+# Creating two separate lists.
+s_nameList = ["Ali", "Ahmed", "Sara", "Ayesha"]
+s_marksList = [85, 72, 91, 78]
+
+# Calling the function.
+students = create_student_list(s_nameList, s_marksList)
+
+# Displaying the complete list.
+print(students)
+
+#EXAMPLE 3
+# This function call itself again and again
+# If same function calls itself again and again then it is called as recursion
+# This function calculates the factorial of a number.
+# Factorial means:
 #
-#
-# #EXAMPLE 2
-# def create_student_list(s_nameList, s_marksList):
-#
-#     # Empty list to store dictionaries of students.
-#     s_studentList = []
-#
-#     # Loop is used to visit every index of the lists.
-#     for i in range(len(s_nameList)):
-#
-#         # Creating dictionary for one student.
-#         s_student = {
-#             "Name": s_nameList[i],
-#             "Marks": s_marksList[i]
-#         }
-#
-#         # Adding dictionary into the list.
-#         s_studentList.append(s_student)
-#
-#     # Returning the complete list.
-#     return s_studentList
-#
-#
-# # Creating two separate lists.
-# s_nameList = ["Ali", "Ahmed", "Sara", "Ayesha"]
-# s_marksList = [85, 72, 91, 78]
-#
-# # Calling the function.
-# students = create_student_list(s_nameList, s_marksList)
-#
-# # Displaying the complete list.
-# print(students)
-#
-# #EXAMPLE 3
-# # This function call itself again and again
-# # If same function calls itself again and again then it is called as recursion
-# # This function calculates the factorial of a number.
-# # Factorial means:
-# #
-# # 5! = 5 × 4 × 3 × 2 × 1 = 120
-#
+# 5! = 5 × 4 × 3 × 2 × 1 = 120
+
 def factorial(number):#1st 5 ==
 
     # Base Case
@@ -100,23 +100,23 @@ def factorial(number):#1st 5 ==
 answer = factorial(5)
 
 print("Factorial =", answer)
-#
-#
-# # Example 4
-# # Display List Using Recursion
-# marks = [70, 80, 90, 85, 75]
-#
-# # This function displays every element of the list
-# # without using a loop.
-# def display_marks(data, index):
-#
-#     # Base Case
-#     if index == len(data):
-#         return
-#
-#     print(data[index])
-#
-#     # Recursive Call
-#     display_marks(data, index + 1)
-#
-# display_marks(marks, 0)
+
+
+# Example 4
+# Display List Using Recursion
+marks = [70, 80, 90, 85, 75]
+
+# This function displays every element of the list
+# without using a loop.
+def display_marks(data, index):
+
+    # Base Case
+    if index == len(data):
+        return
+
+    print(data[index])
+
+    # Recursive Call
+    display_marks(data, index + 1)
+
+display_marks(marks, 0)
