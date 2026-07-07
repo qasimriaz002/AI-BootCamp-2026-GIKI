@@ -156,7 +156,8 @@ AI-BootCamp-2026-GIKI/
 ├── Module 05 - Working with Data & Files/
 │   |── Lecture 01 - File Handling.py
 │   ├── Lecture 02 - Exception Handling.py
-│   └── Lecture 03 - List Comprehension.py
+│   ├── Lecture 03 - List Comprehension.py
+│   └── Lecture 04 - File Handling (CSV Files).py
 │
 ├── Module 06 - NumPy (Numerical Python)/
 │   |── Lecture 01 - Numpy Introduction.py
