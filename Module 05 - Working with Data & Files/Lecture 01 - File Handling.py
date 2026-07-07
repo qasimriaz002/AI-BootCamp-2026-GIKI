@@ -169,7 +169,10 @@ with open("student_result.txt", "r") as file:
     for record in file:
 
         print(record)
+
         data = record.strip().split(",")
+        # strip() removes unwanted spaces and the
+        # newline (\n) character from both ends.
 
         print("Name :", data[0])
         print("Marks:", data[1])
